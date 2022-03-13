@@ -33,7 +33,7 @@ Fraction Largest_fraction(Fraction f1,Fraction f2,Fraction f3)
 }
 void output(Fraction f1,Fraction f2,Fraction f3,Fraction Largest)
 {
-    printf("%d/%d is largest among %d/%d , %d/%d and %d/%d\n",Largest.num,Largest.den,f1.num,f1.den,f2.num,f2.den,f3.num,f3.den);
+    printf("%d/%d is largest among %d/%d , %d/%d and %d/%d \n",Largest.num,Largest.den,f1.num,f1.den,f2.num,f2.den,f3.num,f3.den);
   }
 int main()
 {
