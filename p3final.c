@@ -36,4 +36,5 @@ int main()
   z=ncr(x,y);
   output(x,y,z);
   return 0;
+  
 }
