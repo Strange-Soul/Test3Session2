@@ -23,8 +23,8 @@ int find_largest(int n,int a[n])
   return largest;
 }
 void output(int n,int a[n],int largest)
-{ for(i=0;i<n;i++)
-  printf("Largest number in %d size array = %d of index:%d \n",n,a[n],largest);
+{ 
+  printf("Largest number is %d at index:%d \n",a[largest],largest);
 }
 int main()
 {
