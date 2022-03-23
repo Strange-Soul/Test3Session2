@@ -24,7 +24,12 @@ int find_largest(int n,int a[n])
 }
 void output(int n,int a[n],int largest)
 { 
-  printf("Largest number is %d at index:%d \n",a[largest],largest);
+  printf("Largest  number among");
+  for(int i=0;i<n;i++)
+    {
+      printf("%d,",a[i]);
+    }
+  printf("is %d at the index of %d \n",a[largest],largest);
 }
 int main()
 {
